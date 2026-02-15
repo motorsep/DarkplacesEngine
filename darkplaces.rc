@@ -1,0 +1,36 @@
+// Microsoft Visual C++ generated resource script.
+//
+// Edit the icon filename below to change the executable icon.
+// Available options in repo: darkplaces.ico, nexuiz.ico
+// (Add your own .ico file to the repo root if needed, e.g., steelstorm2.ico)
+A ICON MOVEABLE PURE LOADONCALL DISCARDABLE "darkplaces.ico"
+//A ICON MOVEABLE PURE LOADONCALL DISCARDABLE "tom_icon.ico"
+
+1 VERSIONINFO
+FILEVERSION 1,0,0,0
+PRODUCTVERSION 1,0,0,0
+FILEFLAGS 0x0L
+FILEOS 0x4L          // VOS_NT (Windows NT and later)
+FILETYPE 0x1L        // VFT_APP (application)
+FILESUBTYPE 0x0L     // No subtype
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904E4"  // US English, Unicode
+        BEGIN
+            VALUE "CompanyName", "Forest Hale Digital Services"
+            VALUE "FileVersion", "1.0"
+            VALUE "FileDescription", "DarkPlaces Game Engine"
+            VALUE "InternalName", "darkplaces.exe"
+            VALUE "LegalCopyright", "id Software, Forest Hale, and contributors"
+            VALUE "LegalTrademarks", ""
+            VALUE "OriginalFilename", "darkplaces.exe"
+            VALUE "ProductName", "DarkPlaces"
+            VALUE "ProductVersion", "1.0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x0409 0x04E4  // US English, Unicode
+    END
+END
